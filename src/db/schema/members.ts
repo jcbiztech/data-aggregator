@@ -22,3 +22,15 @@ export const members= pgTable("members", {
   createdAt: timestamp("created_at"),
   updatedAt: timestamp("updated_at"),
 });
+
+
+// queries: find/get all members (id --> join name)
+// demographic (form response) 
+// sponsors / partners
+// aggregated, by event 
+
+// for POC
+// standardization of data
+// z-score standardization -- look at judging scheme 
+// get data that validates marketing strategies 
+// number of reels, split, timeline 
